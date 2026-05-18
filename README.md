@@ -211,7 +211,3 @@ High-quality extensions for a stronger portfolio project:
 ## Limitations
 
 This is not a production trading system. It does not implement exchange-native protocols, real exchange connectivity, regulatory compliance checks, deterministic replay of real packets, market-impact modelling, or colocated deployment concerns.
-
-## Academic and resume use
-
-Do not list this as a project unless you can explain and modify it. In interviews, be transparent that it is a simulator built for learning systems design, not a live trading system.
