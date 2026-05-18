@@ -1,0 +1,12 @@
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+  engine:
+    build: .
+    depends_on:
+      - redis
+    volumes:
+      - ./artifacts:/app/artifacts
+    command: ["./build/llt_engine", "--config", "configs/default.conf", "--out", "artifacts", "--events", "1000000"]
