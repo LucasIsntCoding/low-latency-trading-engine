@@ -1,0 +1,15 @@
+run_completed_at=2026-05-18T10:18:19Z
+events_processed=20000
+elapsed_sec=0.00601139
+throughput_events_per_sec=3.32702e+06
+latency_mean_ns=148.322
+latency_min_ns=81
+latency_p50_ns=139
+latency_p90_ns=172
+latency_p99_ns=267
+latency_max_ns=20066
+fills=49
+final_position=25
+final_cash=-2469.75
+gross_notional=122078
+final_pnl=21
